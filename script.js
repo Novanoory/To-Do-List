@@ -24,3 +24,9 @@ function addTask() {
 
 // Append the remove button to the list item
 li.appendChild(removeButton);
+ // Append the list item to the task list
+ taskList.appendChild(li);
+
+ // Clear the input field
+ taskInput.value = '';
+}
